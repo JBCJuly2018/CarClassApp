@@ -2,6 +2,12 @@ public class CarApp {
 
     public static void main(String[] args) {
 
+        /* **********************
+         *
+         * INHERITANCE EXAMPLE
+         *
+         * **********************/
+
         // Created a new Vehicle object instance
         Vehicle firstVehicle = new Vehicle();
 
@@ -23,8 +29,6 @@ public class CarApp {
         firstCar.setModel("Corolla");
         firstCar.setYear(2018);
 
-        output(firstCar.toString());
-
         // Use the parent's methods:
         output(firstCar.start());
 
@@ -36,10 +40,13 @@ public class CarApp {
 
         output("================================================");
 
-        // Create a new Person object instance
-        Person firstPerson = new Person();
+        /* **********************
+         *
+         * COMPOSITION EXAMPLE
+         *
+         * **********************/
+        output(firstCar.getDriverName());
 
-        output(firstPerson.getDriverLicense());
     }
 
     public static void output(String message) {

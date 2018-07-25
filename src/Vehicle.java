@@ -1,3 +1,4 @@
+// This is the parent car
 public class Vehicle {
 
     private int speed;

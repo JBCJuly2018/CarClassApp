@@ -1,23 +1,7 @@
 public class Person {
 
-    private String name;
-
-    private Driver driver;
-
     public Person() {
-        this.driver = new Driver();
-        driver.setDriverLicense("Bob-00000000");
+        System.out.println("A new person has been created...");
     }
 
-    public String getDriverLicense() {
-        return driver.getDriverLicense();
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }
