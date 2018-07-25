@@ -48,12 +48,4 @@ public class Car extends Vehicle {
         this.year = year;
     }
 
-    @Override
-    public String toString() {
-        return "Car{" +
-                "make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                '}';
-    }
 }

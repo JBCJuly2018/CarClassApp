@@ -34,6 +34,12 @@ public class CarApp {
 
         output(firstCar.stop());
 
+        output("================================================");
+
+        // Create a new Person object instance
+        Person firstPerson = new Person();
+
+        output(firstPerson.getDriverLicense());
     }
 
     public static void output(String message) {
